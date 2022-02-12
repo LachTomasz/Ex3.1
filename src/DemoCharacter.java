@@ -8,7 +8,7 @@ public class DemoCharacter {
         out.println("Returns the numeric value of the character ch in the specified radix.");
         out.println();
         /*Example of a char table*/
-        char[] znak = {'E','u','r','o',' ','2','0','2','2'};
+        char[] znak = new char[]{'E','u','r','o',' ','2','0','2','2'};
         /*Demonstracja działania metody*/
         out.println("Wartość znaku jako cyfry w układzie dziesiętkowym (radix = 10)");
         for(char z : znak)
